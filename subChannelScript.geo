@@ -71,3 +71,11 @@ out[]=Surface{:};
 For j In {0:#newEntities[]-1}
 	Printf("The newEntity %g is %g",j,newEntities[j]) ;
 EndFor
+//+
+
+
+//+
+Physical Surface("htop") = {398, 464, 442, 508, 486, 530, 574, 332, 354, 420, 376, 552, 124, 186, 248, 310};
+//+
+//Physical Surface("htop_internal") = {124, 186, 248, 310};
+
