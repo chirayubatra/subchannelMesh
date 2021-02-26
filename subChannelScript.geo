@@ -30,7 +30,8 @@ EndFor
 // this is used to store all surfaces in one array and then name them later. 
 bottom[] = Surface { : }; 
 h=1;
-m=1;
+//m=1;
+m=3.7;
 newEntities[]=
 Extrude{0,0,m}
 {		
@@ -75,7 +76,13 @@ EndFor
 
 
 //+
-Physical Surface("htop") = {398, 464, 442, 508, 486, 530, 574, 332, 354, 420, 376, 552, 124, 186, 248, 310};
+//Physical Surface("htop") = {398, 464, 442, 508, 486, 530, 574, 332, 354, 420, 376, 552, 124, 186, 248, 310};
 //+
 //Physical Surface("htop_internal") = {124, 186, 248, 310};
 
+//+
+Physical Surface("htop") = {536, 412, 350, 288, 226, 164, 598, 682, 474, 660};
+//+
+Physical Surface("htop") += {704, 748, 792, 836, 880};
+//+
+Physical Surface("htop") += {770, 726, 924, 814, 858, 902};
